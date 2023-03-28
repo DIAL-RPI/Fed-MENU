@@ -12,16 +12,16 @@ Federated learning is an emerging paradigm allowing large-scale decentralized le
 <img src="./fig1.png"/>
 
 ## Data
-In our paper, we conducted experiments using the following six public abdominal CT image datasets:
+In our paper, we conducted experiments using *six* public abdominal CT image datasets for *five-organ segmentation*, including (L)iver, (K)idney, (P)ancreas, (S)pleen, and (G)allbladder. The first five client datasets (Client #1~5) are randomly split into training/validation/testing sets with a fixed ratio of 60\%:10\%:30\%, respectively. The experimental results on the five testing sets are used for *in-federation* evaluation, which indicates the model performance when the testing data follows the same distribution as the training and validation data. For the BTCV dataset, we reserve it as an *out-of-federation* testing set, which is completely unseen to the model during training and validation.
 
-Clients | Dataset | Link | Labeled organs<br>Liver \| Kidney \| Pancreas \| Spleen \| Gallbladder
+Clients | Dataset | # of images<br>(train/val/test) | Organ Labels<br>L \| K \| P \| S \| G
 --- | --- | --- | :--- 
-In-federation Client #1 | LiTS | [link](https://competitions.codalab.org/competitions/17094) | :white_check_mark:  :no_entry:  :no_entry:  :no_entry:  :no_entry:
-In-federation Client #2 | KiTS | [link](https://kits19.grand-challenge.org/home/) | :no_entry: :white_check_mark: :no_entry: :no_entry: :no_entry:
-In-federation Client #3 | MSD-Task07 | [link](http://medicaldecathlon.com/) | :no_entry: :no_entry: :white_check_mark: :no_entry: :no_entry:
-In-federation Client #4 | MSD-Task09 | [link](http://medicaldecathlon.com/) | :no_entry: :no_entry: :no_entry: :white_check_mark: :no_entry:
-In-federation Client #5 | AMOS | [link](https://amos22.grand-challenge.org/) | :white_check_mark: :white_check_mark: :white_check_mark: :white_check_mark: :white_check_mark:
-Out-of-federation Client  | BTCV | [link](https://www.synapse.org/\#!Synapse:syn3193805/wiki/89480) | :white_check_mark: | :white_check_mark: :white_check_mark: :white_check_mark: :white_check_mark:
+In-federation Client #1 | [LiTS](https://competitions.codalab.org/competitions/17094) | 131 (79/13/39) | :white_check_mark:  :no_entry:  :no_entry:  :no_entry:  :no_entry:
+In-federation Client #2 | [KiTS](https://kits19.grand-challenge.org/home/) | 210 (126/21/63) | :no_entry: \| :white_check_mark: \| :no_entry: \| :no_entry: \| :no_entry:
+In-federation Client #3 | [MSD-Task07](http://medicaldecathlon.com/) | 281 (169/28/84) | :no_entry: \| :no_entry: \| :white_check_mark: \| :no_entry: \| :no_entry:
+In-federation Client #4 | [MSD-Task09](http://medicaldecathlon.com/) | 41 (24/5/12) | :no_entry: \| :no_entry: \| :no_entry: \| :white_check_mark: \| :no_entry:
+In-federation Client #5 | [AMOS](https://amos22.grand-challenge.org/) | 200 (120/20/60) | :white_check_mark: \| :white_check_mark: \| :white_check_mark: \| :white_check_mark: \| :white_check_mark:
+Out-of-federation Client  | [BTCV](https://www.synapse.org/\#!Synapse:syn3193805/wiki/89480) | 30 (0/0/30) | :white_check_mark: \| :white_check_mark: \| :white_check_mark: \| :white_check_mark: \| :white_check_mark:
 
 ## Contact
 You are welcome to contact us:  
