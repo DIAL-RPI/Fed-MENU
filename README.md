@@ -12,7 +12,9 @@ Federated learning is an emerging paradigm allowing large-scale decentralized le
 <img src="./fig1.png"/>
 
 ## Data
-Clients | Dataset | Link | ---Liver--- | --Kidney--- | -Pancreas-- | --Spleen--- | Gallbladder
+In our paper, we conducted experiments using the following six public abdominal CT image datasets:
+
+Clients | Dataset | Link | ---Live--- | --Kidney--- | -Pancreas-- | --Spleen--- | Gallbladder
 --- | --- | --- | :---: | :---: | :---: | :---: | :---: 
 In-federation Client #1 | LiTS | [link](https://competitions.codalab.org/competitions/17094) | :white_check_mark: | :no_entry: | :no_entry: | :no_entry: | :no_entry:
 In-federation Client #2 | KiTS | [link](https://kits19.grand-challenge.org/home/) | :no_entry: | :white_check_mark: | :no_entry: | :no_entry: | :no_entry:
