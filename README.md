@@ -12,7 +12,7 @@ Federated learning is an emerging paradigm allowing large-scale decentralized le
 <img src="./fig1.png"/>
 
 ## Data
-In our paper, we conducted experiments using *six* public abdominal CT image datasets for *five-organ segmentation*, including (**L**)iver, (**K**)idney, (**P**)ancreas, (**S**)pleen, and (**G**)allbladder. The first five client datasets (Client #1~5) are randomly split into training/validation/testing sets with a fixed ratio of 60\%:10\%:30\%, respectively. The experimental results on the five testing sets are used for *in-federation* evaluation, which indicates the model performance when the testing data follows the same distribution as the training and validation data. For the BTCV dataset, we reserve it as an *out-of-federation* testing set, which is completely unseen to the model during training and validation.
+In our paper, we conducted experiments using *six* public abdominal CT image datasets for *five-organ segmentation*, including *Liver*, *Kidney*, *Pancreas*, *Spleen*, and *Gallbladder*. The first five client datasets (Client #1~5) are randomly split into training/validation/testing sets with a fixed ratio of 60\%:10\%:30\%, respectively. The experimental results on the five testing sets are used for *in-federation* evaluation, which indicates the model performance when the testing data follows the same distribution as the training and validation data. For the BTCV dataset, we reserve it as an *out-of-federation* testing set, which is completely unseen to the model during training and validation.
 
 Clients | Dataset | # of images<br>(train/val/test) | Organ Labels<br>Liver \| Kidney \| Pancreas \| Spleen \| Gallbladder
 :--- | :--- | :---: | :---: 
