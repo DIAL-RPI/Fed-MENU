@@ -1,7 +1,7 @@
 # Federated Multi-encoding U-Net (Fed-MENU)
 Federated Multi-organ Segmentation with Inconsistent Labels
 
-This is a python (PyTorch) implementation of **federated multi-encoding U-Net (Fed-MENU)** method for federated learning-based multi-organ segmentation with inconsistent labels proposed in our paper [**"Federated Multi-organ Segmentation with Inconsistent Labels"**](https://arxiv.org/abs/2206.07156) (under review).
+This is a python (PyTorch) implementation of **federated multi-encoding U-Net (Fed-MENU)** method for federated learning-based multi-organ segmentation with inconsistent labels proposed in our ***IEEE Transactions on Medical Imaging*** journal paper [**"Federated Multi-organ Segmentation with Inconsistent Labels"**](https://arxiv.org/abs/2206.07156) (accepted).
 
 
 ## Abstract
