@@ -4,13 +4,16 @@ Federated Multi-organ Segmentation with Inconsistent Labels
 This is a python (PyTorch) implementation of **federated multi-encoding U-Net (Fed-MENU)** method for federated learning-based multi-organ segmentation with inconsistent labels proposed in our ***IEEE Transactions on Medical Imaging*** journal paper [**"Federated Multi-organ Segmentation with Inconsistent Labels"**](https://doi.org/10.1109/TMI.2023.3270140) (early access). A preprint version of this paper is also available on [arXiv](https://arxiv.org/abs/2206.07156).
 
 ## Citation
-  *X. Xu, H. H. Deng, J. Gateno and P. Yan, "Federated Multi-organ Segmentation with Inconsistent Labels," in IEEE Transactions on Medical Imaging, 2023, doi: 10.1109/TMI.2023.3270140.*
+  *X. Xu, H. H. Deng, J. Gateno and P. Yan, "Federated Multi-organ Segmentation with Inconsistent Labels," in IEEE Transactions on Medical Imaging, vol. 42, no. 10, pp. 2948-2960, October 2023, doi: 10.1109/TMI.2023.3270140.*
 
     @article{Xu2023FedMENU,
       title={Federated Multi-organ Segmentation with Inconsistent Labels}, 
       author={Xu, Xuanang and Deng, Hannah H. and Gateno, Jaime and Yan, Pingkun},
       journal={IEEE Transactions on Medical Imaging}, 
       year={2023},
+      volume={42},
+      number={10},
+      pages={2948-2960},
       publisher={IEEE},
       doi={10.1109/TMI.2023.3270140}
     }
