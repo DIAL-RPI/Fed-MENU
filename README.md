@@ -42,4 +42,4 @@ Out-of-federation Client  | [BTCV](https://www.synapse.org/\#!Synapse:syn3193805
 
 ## Contact
 You are welcome to contact us:  
-  - [xux12@rpi.edu](mailto:xux12@rpi.edu)(Dr. Xuanang Xu)
+  - [xux12@rpi.edu](mailto:xux12@rpi.edu) ([Dr. Xuanang Xu](https://superxuang.github.io/))
